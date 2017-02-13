@@ -1,0 +1,16 @@
+{
+    "name": "iUserAgent",
+    "version": "1.0",
+    "description": "Browse internet like you are doing on your iOS device",
+    "manifest_version": 2,
+    "permissions": [
+                    "<all_urls>","webRequest","webRequestBlocking","storage"
+                    ],
+    "background": {
+        "scripts": ["bgp.js"],
+        "persistent": true
+    },
+   "icons": { "16": "icon16.png",
+              "48": "icon48.png"
+	}
+}
